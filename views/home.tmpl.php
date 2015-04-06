@@ -28,6 +28,8 @@
             <li><a href="?throw=rock">Rock</a></li>
             <li><a href="?throw=paper">Paper</a></li>
             <li><a href="?throw=scissors">Scissors</a></li>
+            <li><a href="?throw=lizard">Lizard</a></li>
+            <li><a href="?throw=spock">Spock</a></li>
         </ul>
 
         {results_view}
