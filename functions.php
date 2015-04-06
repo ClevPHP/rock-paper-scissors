@@ -25,23 +25,23 @@ function computers_throw() {
  */
  function who_wins( $users_throw, $computers_throw) {
 
-     if ( $users_throw == 'Rock' AND ( $computers_throw == 'Scissors' || $computers_throw == 'Lizard' ) ) {
+   if ( $users_throw == 'Rock' && ( $computers_throw == 'Scissors' || $computers_throw == 'Lizard' ) ) {
 
      	return 'User wins!';
 
-     } elseif ( $users_throw == 'Scissors' AND ( $computers_throw == 'Paper' || $computers_throw == 'Lizard' ) ) {
+     } elseif ( $users_throw == 'Scissors' && ( $computers_throw == 'Paper' || $computers_throw == 'Lizard' ) ) {
 
      	return 'User wins!';
 
-     } elseif ( $users_throw == 'Paper' AND ( $computers_throw == 'Rock' || $computers_throw == 'Spock' ) ) {
+     } elseif ( $users_throw == 'Paper' && ( $computers_throw == 'Rock' || $computers_throw == 'Spock' ) ) {
 
      	return 'User wins!';
 
-     } elseif ( $users_throw == 'Lizard' AND ( $computers_throw == 'Paper' || $computers_throw == 'Spock' ) ) {
+     } elseif ( $users_throw == 'Lizard' && ( $computers_throw == 'Paper' || $computers_throw == 'Spock' ) ) {
 
      	return 'User wins!';
 
-     } elseif ( $users_throw == 'Spock' AND ( $computers_throw == 'Rock' || $computers_throw == 'Scissors' ) ) {
+     } elseif ( $users_throw == 'Spock' && ( $computers_throw == 'Rock' || $computers_throw == 'Scissors' ) ) {
 
      	return 'User wins!';
 
@@ -54,5 +54,7 @@ function computers_throw() {
      	return 'Computer wins!';
 
      }
+
+return $winner;
 
  }
