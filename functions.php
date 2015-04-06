@@ -9,7 +9,9 @@
  * @return string
  */
 function computers_throw() {
-    return '';
+  $type_of_throws = array('Rock','Paper','Scissors','Lizard','Spock');
+
+  return $type_of_throws[array_rand($type_of_throws)];
 }
 
 /**
@@ -21,6 +23,38 @@ function computers_throw() {
  * @param $computers_throw
  * @return string
  */
-function who_wins( $users_throw, $computers_throw) {
-    return '';
-}
+ function who_wins( $users_throw, $computers_throw) {
+
+   if ( $users_throw == 'Rock' && ( $computers_throw == 'Scissors' || $computers_throw == 'Lizard' ) ) {
+
+     	return 'User wins!';
+
+     } elseif ( $users_throw == 'Scissors' && ( $computers_throw == 'Paper' || $computers_throw == 'Lizard' ) ) {
+
+     	return 'User wins!';
+
+     } elseif ( $users_throw == 'Paper' && ( $computers_throw == 'Rock' || $computers_throw == 'Spock' ) ) {
+
+     	return 'User wins!';
+
+     } elseif ( $users_throw == 'Lizard' && ( $computers_throw == 'Paper' || $computers_throw == 'Spock' ) ) {
+
+     	return 'User wins!';
+
+     } elseif ( $users_throw == 'Spock' && ( $computers_throw == 'Rock' || $computers_throw == 'Scissors' ) ) {
+
+     	return 'User wins!';
+
+     } elseif ( $users_throw == $computers_throw ) {
+
+     	return "It's a draw!";
+
+     } else {
+
+     	return 'Computer wins!';
+
+     }
+
+return $winner;
+
+ }
