@@ -8,7 +8,7 @@ $view = new view( 'views/', '.tmpl.php');
 // Set throw from Query String, if it is set
 $user_throw = ( isset( $_GET['throw'] ) ) ? $_GET['throw'] : false ;
 
-// Set throw for computer, is the user has a throw
+// Set throw for computer, if the user has a throw
 $computers_throw = ( $user_throw ) ? computers_throw() : false;
 
 // Determine the winner
