@@ -18,16 +18,18 @@
 
     <div class="wrapper">
 
-        <h1 class="title">Rock-Paper-Scissors</h1>
+        <h1 class="title">Rock-Paper-Scissors-Lizard-Spock</h1>
 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta harum magni minus molestias, mollitia nemo nesciunt obcaecati quam quidem quisquam, ratione repudiandae sapiente soluta suscipit temporibus, veniam voluptates voluptatum!
+          Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, (and as it always has) Rock crushes scissors.
         </p>
 
         <ul>
             <li><a href="?throw=rock">Rock</a></li>
             <li><a href="?throw=paper">Paper</a></li>
             <li><a href="?throw=scissors">Scissors</a></li>
+            <li><a href="?throw=lizard">Lizard</a></li>
+            <li><a href="?throw=spock">Spock</a></li>
         </ul>
 
         {results_view}
