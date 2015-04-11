@@ -48,31 +48,26 @@
 				{	return "User wins. Rock beats " . $computers_throw . "<br>" ; }
 				else
 				{	return "Computer wins. Rock loses to " . $computers_throw . "<br>" ; }
-				break;
 			case ( "Scissors" ):
 				if ( "LIZARD" == $cthrow || "PAPER" == $cthrow )
 				{	return "User wins. Scissors beats " . $computers_throw . "<br>" ; }
 				else
 				{	return "Computer wins. Scissors loses to " . $computers_throw . "<br>" ; }
-				break;
 			case ( "Paper" ):
 				if ( "ROCK" == $cthrow || "SPOCK" == $cthrow )
 				{	return "User wins. Paper beats " . $computers_throw . "<br>" ; }
 				else
 				{	return "Computer wins. Paper loses to " . $computers_throw . "<br>" ; }
-				break;
 			case ( "Lizard" ):
 				if ( "SPOCK" == $cthrow || "PAPER" == $cthrow )
 				{	return "User wins. Lizard beats " . $computers_throw . "<br>" ; }
 				else
 				{	return "Computer wins. Lizard loses to " . $computers_throw . "<br>" ; }
-				break;
 			case ( "Spock" ):
 				if ( "ROCK" == $cthrow || "SCISSORS" == $cthrow )
 				{	return "User wins. Spock beats " . $computers_throw . "<br>" ; }
 				else
 				{	return "Computer wins. Spock loses to " . $computers_throw . "<br>" ; }
-				break;
 			default:
 				return "Improper value given.";
 				
